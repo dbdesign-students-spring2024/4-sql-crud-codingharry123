@@ -31,6 +31,7 @@ Write the SQL commands to create the tables with the structure you determine is 
 
 Insert realistic-looking dummy data for one thousand restaurants. Use [mockaroo.com](https://mockaroo.com) - a tool for generating mock data - helpful. A few non-obvious notes about Mockaroo:
 
+- Mockaroo's **Row Number** field type can be used to generate primary key numbers.
 - Mockaroo's **Time** field type can generate times in 24 hour format which is useful for generating opening/closing times necessary for restaurant data in this assignment.
 - Mockaroo's **Custom List** field type can randomly pick from a list of values you enter. This can be useful for randomly picking from a set of NYC neighborhood names for any restaurant.
 
