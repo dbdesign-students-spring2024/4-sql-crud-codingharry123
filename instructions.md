@@ -10,7 +10,7 @@ Complete the following exercises. For each:
 
 ## Part 1: Restaurant finder
 
-Design a database table named `restaurants` that would allow an application that uses it to find restaurants.
+Design a database table named `restaurants` that would allow an application that uses it to find restaurants and a table named `reviews` that would hold reviews for any restaurant.
 
 ### Table structure
 
@@ -19,17 +19,20 @@ Decide what fields and data types are necessary for the `restaurants` table. Bea
 - **Category** (i.e. genre of food)
 - **Price tier** (i.e cheap, medium, or expensive)
 - **Neighborhood** (a particular NYC neighborhood)
-- **Opening hours** (for simplicity, you can assume each restaurant has the same opening hours every day - stick to round hours, not half-hours)
+- **Opening hours** (for simplicity, you can assume each restaurant has the same opening hours every day)
 - **Average rating** (out of 5 stars)
 - **Good for kids** (true or false)
 
-The application must also be able to allow users to leave reviews.
+The application must also be able to allow users to leave reviews associated with any restaurant.
 
-Write the SQL command to create the table with the structure you determine is necessary.
+Write the SQL commands to create the tables with the structure you determine is necessary.
 
 ### Practice data
 
-Insert realistic-looking dummy data for one thousand restaurants. You may find [mockaroo.com](https://mockaroo.com) helpful.
+Insert realistic-looking dummy data for one thousand restaurants. Use [mockaroo.com](https://mockaroo.com) - a tool for generating mock data - helpful. A few non-obvious notes about Mockaroo:
+
+- Mockaroo's **Time** field type can generate times in 24 hour format which is useful for generating opening/closing times necessary for restaurant data in this assignment.
+- Mockaroo's **Custom List** field type can randomly pick from a list of values you enter. This can be useful for randomly picking from a set of NYC neighborhood names for any restaurant.
 
 Include the practice data in a CSV file named `restaurants.csv` in the directory named `data`.
 
