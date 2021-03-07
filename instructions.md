@@ -57,9 +57,9 @@ Write a single SQL query to perform each of the following tasks:
 
 #### Hint
 
-The following SQLite code returns the current hour of the day, in 24 hour format in UTC time - this may be useful in determining whether a given restaurant is currently open or not `strftime('%H', 'now')`
+The following SQLite code returns the current time of the day in 24 hour format UTC time - this may be useful in determining whether a given restaurant is currently open or not `strftime('%H:%M', 'now')`
 
-To see the return value of this command directly (not as part of a comparison operation), use the following syntax: `SELECT strftime('%H', 'now');`
+To see the return value of this command directly (not as part of a comparison operation), use the following syntax: `SELECT strftime('%H:%M', 'now');`
 
 ## Part 2: Social media app
 
