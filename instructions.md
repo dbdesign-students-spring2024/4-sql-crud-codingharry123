@@ -6,7 +6,7 @@ Complete the following exercises. For each:
 - determine the data type of any fields
 - determine which field(s) is the primary key for each table
 - determine which field(s) is the foreign keys for any tables that require them
-- write MySQL queries that perform the requested functionality.
+- write SQL queries that perform the requested functionality.
 
 ## Part 1: Restaurant finder
 
