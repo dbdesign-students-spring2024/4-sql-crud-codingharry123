@@ -129,9 +129,9 @@ Write a single SQL query to perform each of the followin tasks:
 
 ### Hint
 
-The following SQLite code returns the difference in hours between the time now and an earlier date and time - this may be useful in determining the number of hours that have passed since a post was made: `ROUND((JULIANDAY('now') - JULIANDAY('2021-02-21 12:50:00')) * 60)`
+The following SQLite code returns the difference in hours between the time now and an earlier date and time - this may be useful in determining the number of hours that have passed since a post was made: `ROUND((JULIANDAY('now') - JULIANDAY('2021-02-21 12:50:00')) * 24)`
 
-To see the return value of this command directly (not as part of a comparison operation), use the following syntax: `SELECT ROUND((JULIANDAY('now') - JULIANDAY('2021-02-21 12:50:00')) * 60);`
+To see the return value of this command directly (not as part of a comparison operation), use the following syntax: `SELECT ROUND((JULIANDAY('now') - JULIANDAY('2021-02-21 12:50:00')) * 24);`
 
 ## Write a report
 
