@@ -49,7 +49,7 @@ Write a single SQL query to perform each of the following tasks:
 
 1. Find all restaurants that are open now (see hint below).
 
-1. Leave a review for a restaurant (pick any restaurant as an example).
+1. Leave a review for a restaurant (pick any restaurant as an example; note that leaving a review has no automatic effect on the average rating of the restaurant).
 
 1. Delete all restaurants that are not good for kids.
 
