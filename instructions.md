@@ -57,7 +57,7 @@ Write a single SQL query to perform each of the following tasks:
 
 #### Hint
 
-SQLite has no built-in date- or time-related datatypes, so dates and times are stored internally as `TEXT`, `REAL`, or `INTEGER` values. However, a variety of [date- and time-related functions](https://www.sqlite.org/lang_datefunc.html) do exist.
+SQLite has no built-in date- or time-related [data types](https://www.sqlite.org/datatype3.html), so dates and times are stored internally as `TEXT`, `REAL`, or `INTEGER` values. However, a variety of [date- and time-related functions](https://www.sqlite.org/lang_datefunc.html) do exist.
 
 The following SQLite code returns the current time of the day in 24 hour format UTC time - this may be useful in determining whether a given restaurant is currently open or not `strftime('%H:%M', 'now')`
 
