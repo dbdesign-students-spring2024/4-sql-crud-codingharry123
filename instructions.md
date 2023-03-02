@@ -65,7 +65,7 @@ To see the return value of this command directly (not as part of a comparison op
 
 To get the same time in your local time zone, add a third argument to the function, specifying the time zone: `strftime('%H:%M', 'now', 'localtime');`
 
-Two time strings can be compared using the usual `>`, `>=`, `<`, `<=` operators so long as the times are in the same time zone and they are both represented in "`HH:MM`" format, such as "`08:00`" and not "`8:00`".
+Two time strings can be compared using the usual `>`, `>=`, `<`, `<=` operators so long as the times are in the same time zone and they are both represented in `"HH:MM"` format, such as `"08:00"` and not `"8:00"`.
 
 ## Part 2: Social media app
 
