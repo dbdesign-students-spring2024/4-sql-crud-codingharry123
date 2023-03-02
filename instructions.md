@@ -57,9 +57,15 @@ Write a single SQL query to perform each of the following tasks:
 
 #### Hint
 
+SQLite has no built-in date- or time-related datatypes, so dates and times are stored internally as `TEXT`, `REAL`, or `INTEGER` values. However, a variety of [date- and time-related functions](https://www.sqlite.org/lang_datefunc.html) do exist.
+
 The following SQLite code returns the current time of the day in 24 hour format UTC time - this may be useful in determining whether a given restaurant is currently open or not `strftime('%H:%M', 'now')`
 
 To see the return value of this command directly (not as part of a comparison operation), use the following syntax: `SELECT strftime('%H:%M', 'now');`
+
+To get the same time in your local time zone, add a third argument to the function, specifying the time zone: `strftime('%H:%M', 'now', 'localtime');`
+
+Two time strings can be compared using the usual `>`, `>=`, `<`, `<=` operators so long as the times are in the same time zone and they are both represented in "`HH:MM`" format, such as "`08:00`" and not "`8:00`".
 
 ## Part 2: Social media app
 
